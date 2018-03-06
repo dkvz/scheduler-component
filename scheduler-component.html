@@ -27,6 +27,19 @@
         height: auto !important;
         overflow-y: visible !important;
       }
+
+      .fc-view-container {
+        border: 1px solid #bbbbbb;
+      }
+
+      .fc-time-grid .fc-slats .fc-minor td.fc-widget-content {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #bbbbbb;
+        border-top-width: 1px;
+        border-top-style: dotted;
+        border-top-color: #bbbbbb;
+      }
     </style>
     <div id="calendar"></div>
     <template is="dom-if" if="{{_showCategoriesContainer}}">
